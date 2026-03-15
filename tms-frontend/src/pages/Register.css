@@ -1,0 +1,45 @@
+/* ── REGISTER PAGE ──────────────────────────────────── */
+
+.auth-card.wide {
+  max-width: 560px;
+}
+
+/* ── GRID LAYOUTS ───────────────────────────────────── */
+
+.form-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+/* ── FORM ELEMENTS (Register-specific overrides) ─────── */
+
+.form-group select option {
+  background: var(--bg3);
+  color: var(--text);
+}
+
+/* ── BUTTONS ────────────────────────────────────────── */
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.btn-ghost:hover {
+  border-color: var(--text-2);
+  color: var(--text);
+}

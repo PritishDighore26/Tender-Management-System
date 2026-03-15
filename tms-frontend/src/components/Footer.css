@@ -1,0 +1,90 @@
+/* ── FOOTER ─────────────────────────────────────────── */
+
+.footer {
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+  margin-top: auto;
+}
+
+.footer-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.footer-logo {
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.footer-name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.footer-tagline {
+  font-size: 0.75rem;
+  color: var(--text-3);
+  margin-top: 0.2rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-col h4 {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-2);
+  margin-bottom: 0.25rem;
+}
+
+.footer-col a,
+.footer-col span {
+  font-size: 0.84rem;
+  color: var(--text-3);
+  text-decoration: none;
+  transition: color 0.15s;
+  font-family: 'DM Mono', monospace;
+}
+
+.footer-col a:hover {
+  color: var(--accent);
+}
+
+.footer-bottom {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  color: var(--text-3);
+}
+
+.footer-stack {
+  font-family: 'DM Mono', monospace;
+  color: var(--text-3);
+}
